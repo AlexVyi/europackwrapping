@@ -1,13 +1,17 @@
-body{
+#background{
     background: url(img/epk-background.jpg) no-repeat;
     background-position:center center;
     background-size: cover;
 
 }
 @media only screen and (max-width: 700px) {
-    .col-xs-12 {
-        display: flex;
-        flex-direction: column-reverse;
+   .socialMediaUnderline, #socialmediacontainer {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .tel{
+       margin-left: 200px;
     }
 }
 #socialmediacontainer{
@@ -20,6 +24,12 @@ body{
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+    color: #1e5253;
+    width: 200px;
+    float: right;
+    padding-top: 2px;
+    margin-left: 15px;
+    margin-bottom: 0;
 }
 .telverde{
     font-family: FiraSans,sans-serif;
@@ -38,7 +48,7 @@ li > a {
     font-weight: 500;
     color: #4a4a4a;
 }
-.socialmediaUnderline{
+.socialMediaUnderline{
     width: 100%;
     height: 2px;
     background-color: #dbd1bd;
@@ -55,7 +65,7 @@ li > a {
 #navbarAtag{
     width: 138px;
     height: 23px;
-    font-family: FiraSans,sans-serif;
+    font-family:FiraSans, sans-serif;
     font-size: 16px;
     font-weight: 800;
     text-align: center;
@@ -71,4 +81,56 @@ li > a {
     border-radius: 16px;
     background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
 
+}
+#landingH1 {
+    font-family: FiraSans Extra-Bold,sans-serif;
+    font-size: 52px;
+    font-weight: 900 ;
+    text-align: center;
+    color: #2760aa;
+}
+#landingH5{
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #4a4a4a;
+}
+#landingBtnPoli {
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, #e9ece9, #c6d3c6 89%, #e9ece9);
+
+
+}
+#landingBtnPoliA{
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #495249;
+}
+#landingBtnHartie {
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #dbd1bd, #b8af9e 89%, #dbd1bd);
+}
+#landingBtnHartieA{
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #59554e;
+
+}
+.landingP{
+    display: inline-table;
+    margin-top: 10px;
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #4a4a4a;
 }

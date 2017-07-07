@@ -1,6 +1,9 @@
-#middleContainer {
-    background: url(img/textured-paper-margin.jpg);
-    background-position: center center;
+#paperRow {
+    background: url(img/textured-paper-margin.jpg) center center;
+}
+#paperRowMiddle{
+    background: url(img/textured_paper.jpg) repeat;
+    background-size:contain;
 
 }
 #middleH1{
@@ -9,4 +12,22 @@
     font-weight: 800;
     text-align: center;
     color: #1e5253;
+}
+.paperRowH3 {
+    font-family: FiraSans,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #1e5253;
+}
+@media only screen and (max-width: 700px) {
+    .paperRowH3 {
+        font-family: FiraSans,sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1e5253;
+    }
 }

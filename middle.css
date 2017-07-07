@@ -6,15 +6,15 @@
     background-size:contain;
 
 }
-#middleH1{
-    font-family: FiraSans,sans-serif;
+#middleH1Paper{
+    font-family: 'FiraSans',sans-serif;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     color: #1e5253;
 }
 .paperRowH3 {
-    font-family: FiraSans,sans-serif;
+    font-family: 'FiraSans',sans-serif;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 4.4px;
@@ -30,4 +30,82 @@
         text-align: center;
         color: #1e5253;
     }
+}
+.paperRowA{
+    display: inline-table;
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    text-align: center;
+    color: #4a4a4a;
+}
+#poliRowMiddle{
+    background: url(img/textured-polietilena.jpg);
+    background-size:cover;
+
+}
+#middleH1Poli{
+    font-family: FiraSans,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #2760aa;
+}
+.poliRowH3{
+    font-family: FiraSans,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #2760aa;
+}
+.poliRowA{
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    text-align: center;
+    color: #4a4a4a;
+}
+.borderBottomMiddleContainer{
+    height: 2px;
+    background-color: #dbd1bd;
+    width: 100%;
+}
+#borderBottomMiddleContainerH2{
+    margin-top: 40px;
+    font-family: FiraSans,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+#borderBottomMiddleContainerBtn{
+    margin-top: 25px;
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
+
+}
+#borderBottomMiddleContainerA{
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+}
+#telVerde{
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-family: FiraSans,sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1e5253;
 }

@@ -1,0 +1,200 @@
+#whoWeAreContainer{
+    background: url("img/cinesuntem-background.jpg")  #4a4a4a no-repeat ;
+    background-position: bottom right;
+}
+#whoWeAreTitle{
+    padding-top: 70px;
+}
+#whoWeAreBody{
+    padding-bottom: 50px;
+}
+#whoWeAreH1{
+    font-family: Fira Sans,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #dbd1bd;
+}
+#whoWeAreH3{
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.38;
+    text-align: center;
+    color: #ffffff;
+
+}
+.whoWeAreH2{
+    font-family: Fira Sans,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 4.4px;
+    text-align: center;
+    color: #eff2ef;
+}
+.whoWeAreH5{
+    font-family: Fira Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.57;
+    color: #ffffff;
+}
+.whoWeAreH5bottom{
+    font-family: Fira Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 1.57;
+    color: #dbd1bd;
+}
+hr{
+    width: 155px;
+    height: 3px;
+    color: #979797;
+}
+#faqRow{
+
+    margin-bottom: 35px;
+}
+#FAQh1{
+    font-family: Fira Sans,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #1e5253;
+}
+.panel-default{
+    border: none;
+}
+.panel-heading{
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #eeeeee, #d8d8d8 75%, #f1f1f1);
+}
+.panel-title{
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #4a4a4a;
+}
+.panel-body{
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+.glyphicon{
+    width: 12px;
+    height: 19.6px;
+    color: #2760aa;
+    padding-left: 25px;
+}
+#contactUs{
+    background: url("img/harta-background.jpg");
+}
+#contactH1{
+    font-family: Fira Sans,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #4a4a4a;
+}
+#contactP{
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+#addressBottom{
+    border-radius: 16px;
+    background-color: #d8d8d8;
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+
+}
+.form-horizontal{
+    border-radius: 16px;
+    background-color: #1e5253;
+    box-shadow: 0 7px 24px 1px rgba(74, 74, 74, 0.11);
+}
+.form-control{
+    width: 75%;
+    margin-left: 12.5%;
+    background-color: #1e5253;
+    border-radius: 16px;
+    border: solid 1px #ffffff;
+    font-family: Fira Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align:center;
+    color: #ffffff;
+}
+.form-horizontal .form-group {
+    margin-right:0;
+    margin-left:0;
+}
+#formH4{
+   padding-top: 35px;
+    font-family: Fira Sans,sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.formBTN{
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #dbd1bd, #b8af9e 89%, #dbd1bd);
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #59554e;
+    width: 250px;
+    height: 48px;
+
+}
+#formP{
+    margin-bottom: 35px;
+    font-family: FiraS ans,sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #eff2ef;
+
+}
+#formPspan{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer{
+    border-top: 2px solid #dbd1bd;
+}
+#logoFooter{
+    width: 118px;
+    height: 29px;
+    object-fit: contain;
+
+}
+#footerP{
+    margin-top: 5px;
+    font-family: Fira Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a4a4a;
+}
+ul > li > a{
+    margin-top: 2px;
+    font-family: Fira Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2760aa;
+}
+
+footer > .container > .row {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}

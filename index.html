@@ -3,39 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="telephone=yes">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="sacose personalizate">
     <title>Sacose personalizate din polietilena si hartie</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500,500i,700,700i,800,800i" rel="stylesheet">
+    <link  rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:500,500i,700,700i,800,800i">
     <link rel="stylesheet" href="Plugins/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css" type="text/css" media="all">
     <link rel="stylesheet" href="middle.css" type="text/css" media="all">
+    <link rel="stylesheet" href="bottom.css" type="text/css" media="all">
 </head>
 
-<body data-spy="scroll" data-target="#smart-navbar">
+<body data-spy="scroll" data-target="#smart-navbar" onload="">
 <div class="container-fluid" id="background" style="height: 100%">
-    <div class="container-fluid" id="socialmediacontainer">
-        <div class="row">
+    <div class="container" id="socialmediacontainer">
+        <div class="row" id="socialMediaRow">
             <div class="col-lg-5 col-sm-3 col-md-4">
-                <a href="https://"><img src="img/007-twitter-1.svg" href="epk.ro" style="padding-right:20px"></a>
-                <a href="https://"><img src="img/019-linkedin.svg" style="padding-right:20px"></a>
-                <a href="https://"><img src="img/023-facebook.svg" style="padding-right:20px"></a>
+                <a href="https://"><img src="img/twitter.svg" href="epk.ro" style="padding-right:20px"></a>
+                <a href="https://"><img src="img/in.svg" style="padding-right:20px"></a>
+                <a href="https://"><img src="img/fb.svg" style="padding-right:20px"></a>
             </div>
 
             <div class="col-lg-7 col-sm-9 col-md-8">
-                <p class="tel">TEL VERDE:<span class="telverde">0800 41 02 02</span></p>
-                <address style="float: right;margin-bottom: 0">
+                <p class="tel"><img src="img/tel.svg"> <span class="telverde">0800 41 02 02</span></p>
+                <address>
                     Atelierelor 1, Hala 18/A, Deva, Hunedoara
                 </address>
                 <img src="img/pin.svg" style="float: right;padding-right: 15px;">
             </div>
-
         </div>
     </div><!--end container-->
 
-
-    <div class="socialMediaUnderline"></div>
 
     <nav class="navbar navbar-default" id="smart-navbar" style="background-color: transparent;border: none">
         <div class="container">
@@ -49,103 +47,390 @@
                 <img src="img/logo@3x.png" class="navbar-brand" id="logo">
             </div><!-- navbar header -->
             <div class="collapse navbar-collapse" id="navbar">
-                <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="" id="navbarAtag">Contacteaza-ne</a></button>
-                <ul class="nav navbar-nav" style="font-family: Fira Sans,sans-serif">
-                    <li><a href="#">Oferte sacose</a></li>
-                    <li><a href="#">Despre noi</a></li>
-                    <li><a href="#">Contactati-ne</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
-                    <li><a href="#">Testimoniale</a></li>
-                    <li><a href="#">Intrebari frecvente</a></li>
+                <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="#contactUs" id="navbarAtag">Contactează-ne</a></button>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Oferte Sacoșe</a></li>
+                    <li><a href="#whoWeAreContainer">Despre noi</a></li>
+                    <li><a href="#contactUs">Contactati-ne</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
+                    <li><a href="#clientsOpinion">Testimoniale</a></li>
+                    <li><a href="#FAQ">Intrebări frecvente</a></li>
                 </ul>
             </div>
         </div> <!-- end container -->
     </nav>
 
 
-    <div class="container-fluid" id="landingImg">
+    <div class="container" id="landingContainer">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2"><img src="img/epk-bags.png" class="img-responsive"></div>
         </div>
         <div class="row">
-            <h1 id="landingH1">Polietilena sau Hartie?</h1>
-            <h5 id="landingH5">Afla de care ai nevoie pentru afacerea ta</h5>
+            <h1 id="landingH1">Polietilenă sau Hârtie?</h1>
+            <h5 id="landingH5">Află de care sacoșă sau pungă ai nevoie pentru afacerea ta</h5>
         </div>
         <div class="row text-center" style="margin-top: 70px">
-            <button id="landingBtnPoli"><a href="" id="landingBtnPoliA">Polietilena</a> </button>
-            <button id="landingBtnHartie"><a href="" id="landingBtnHartieA">Hartie</a></button>
+            <button id="landingBtnPoli"><a href="" id="landingBtnPoliA">Polietilenă</a> </button>
+            <button id="landingBtnHartie"><a href="" id="landingBtnHartieA">Hârtie</a></button>
         </div>
-        <div class="row text-center" style="margin-top: 70px">
+        <div class="row text-center" style="margin-top: 70px" id="landingBottomRow">
             <div class="col-md-4 col-xs-12">
                 <img src="img/003-medal.svg">
-                <p class="landingP">Suntem proactivi pentru ca ne ocupam doar de sacose</p>
+                <p class="landingP">Suntem proactivi pentru că
+                    ne ocupăm doar de sacoșe.</p>
             </div>
             <div class="col-md-4 col-xs-12">
                 <img src="img/002-law-scales.svg">
-                <p class="landingP">Rezolvam orice situatie apare astfel incat sa fim cu totii multumiti</p>
+                <p class="landingP">Rezolvăm orice situație apare, astfel încât să fim cu toții mulțumiți.</p>
             </div>
             <div class="col-md-4 col-xs-12">
                 <img src="img/001-time.svg">
-                <p class="landingP">Gandim si facem lucrurile pe termen lung.In orice situatie</p>
+                <p class="landingP">Gândim și facem lucrurile pe termen lung.
+                    În orice situație.</p>
             </div>
         </div>
     </div>
+</div><!--end container fluid id="background-->
+
+
+<div class="container-fluid">
+    <div class="row text-center" id="paperRow" style="height: 84px"></div>
+</div>
+<div class="container-fluid" id="paperRowMiddle">
+    <div class="container">
+        <div class="row text-center">
+            <h1 id="middlePaperH1">Hârtie</h1>
+            <div class="col-md-4 col-xs-12">
+                <img src="img/hartie-image-medical.jpg" class="img-responsive">
+                <h3 class="paperRowH3">MEDICAL</h3>
+                <a href="" class="paperRowA">Sacoșă mâner decupat și pungă cu fund în V</a><br>
+                <a href="" class="paperRowA">Pungi farmacii umane și veterinare</a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="img/hartie-image-general.jpg"  class="img-responsive">
+                <h3 class="paperRowH3">ALIMENTAR</h3>
+                <a href="" class="paperRowA">Pungi kraf natur si kraft albit</a><br>
+                <a href="" class="paperRowA">Pungi panificație și colțare</a>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <img src="img/hartie-image-general-buline.jpg"  class="img-responsive">
+                <h3 class="paperRowH3">GENERAL</h3>
+                <a href="" class="paperRowA">Sacoșe mâner răsucit</a><br>
+                <a href="" class="paperRowA">Sacoșe mâner decupat</a>
+            </div>
+        </div><!--end row id="paperRowMiddle"-->
+    </div>
+</div>
+<div class="container-fluid" id="poliRowMiddle">
+    <div class="container">
+        <div class="row text-center" >
+            <h1 id="middlePoliH1">Polietilenă</h1>
+            <div class="col-md-6 col-xs-12" style="margin-top: 100px">
+                <img src="img/plastic-image-medical.png">
+                <h3 class="poliRowH3">Medical</h3>
+                <a href="" class="poliRowA">Sacoșe maiou farmacii umane</a><br>
+                <a href="" class="poliRowA">Sacoșe maiou farmacii veterinare</a><br>
+                <a href="" class="poliRowA">Sacoșe banană farmacii umane</a><br>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <img src="img/plastic-image-general.png" style="margin-top: 100px">
+                <h3 class="poliRowH3">General</h3>
+                <a href="" class="poliRowA">Sacoșe maiou</a><br>
+                <a href="" class="poliRowA">Sacoșe banană</a><br>
+                <a href="" class="poliRowA">Sacoșe mâner aplicat</a><br>
+            </div>
+        </div><!--end row id="poliRowMiddle"-->
+    </div>
 </div>
 
-<div class="container-fluid" id="middleContainer">
-    <div class="row text-center" id="paperRow" style="height: 84px">
+<div class="container-fluid" id="borderBottomMiddleContainer">
+    <div class="container">
+        <div class="row text-center"><!--call to action-->
+            <div class=" col-lg-10 col-md-9 col-xs-12">
+                <h2 id="borderBottomMiddleContainerH2">Pentru o ofertă personalizată contactează-ne pe e-mail sau la numărul de telefon afișat >></h2>
+            </div>
+            <div class="col-lg-2 col-md-3 col-xs-12 pull-left">
+                <button id="borderBottomMiddleContainerBtn"><a href="#contactUs" id="borderBottomMiddleContainerA">Contactează-ne</a></button>
+                <p id="telVerde"><span style="margin-right:5px"><img src="img/tel.svg" ></span>0800 41 02 02</p>
+            </div>
+        </div><!--call to action-->
     </div>
-    <div class="row text-center" id="paperRowMiddle">
-        <h1 id="middleH1Paper">Hartie</h1>
-        <div class="col-md-4 col-xs-12"  style="margin-top: 100px">
-            <img src="img/hartie-image-medical.jpg">
-            <h3 class="paperRowH3">MEDICAL</h3>
-            <a href="" class="paperRowA">Sacosa cu maner decupat si punga cu fund in V</a><br>
-            <a href="" class="paperRowA">Pungi farmacii umane si veterinare</a>
+</div>
+<div class="container-fluid" id="clientsOpinion">
+    <div class="container">
+        <div class="row text-center" >
+            <h1 id="clientsOpinionH1">Ce spun clienții despre noi</h1>
+            <div class="col-md-6 col-xs-12" style="margin-top: 100px">
+                <img src="http://via.placeholder.com/350x150" alt="" class="placeholder">
+                <blockquote>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                    Duis mollis, est non commodo luctus.
+                </blockquote>
+                <span>Ionut Mihalache | Pasiune pentru polietilenă</span>
+            </div>
+            <div class="col-md-6 col-xs-12" style="margin-top: 100px">
+                <img src="http://via.placeholder.com/350x150" alt="" class="placeholder">
+                <blockquote>
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                    Duis mollis, est non commodo luctus.
+                </blockquote>
+                <span>Cecilia Veronica | Pasiune pentru hartie</span>
+            </div>
         </div>
-        <div class="col-md-4 col-xs-12"  style="margin-top: 100px">
-            <img src="img/hartie-image-general.jpg">
-            <h3 class="paperRowH3">ALIMENTAR</h3>
-            <a href="" class="paperRowA">Pungi kraf natur si kraft albit</a><br>
-            <a href="" class="paperRowA">Pungi panificatie si coltare</a>
-        </div>
-        <div class="col-md-4 col-xs-12"  style="margin-top: 100px">
-            <img src="img/hartie-image-general-buline.jpg">
-            <h3 class="paperRowH3">GENERAL</h3>
-            <a href="" class="paperRowA">Sacose maner rasucit</a><br>
-            <a href="" class="paperRowA">Sacose maner decupat</a>
+        <div class="row text-center">
+            <div id="oval"></div>
         </div>
     </div>
-    <div class="row text-center" id="poliRowMiddle">
-        <h1 id="middleH1Poli">Polietilena</h1>
-        <div class="col-md-6 col-xs-12" style="margin-top: 100px">
-            <img src="img/plastic-image-medical.png">
-            <h3 class="poliRowH3">Medical</h3>
-            <a href="" class="poliRowA">Sacose maiou farmacii umane</a><br>
-            <a href="" class="poliRowA">Sacose maiou farmacii veterinare</a><br>
-            <a href="" class="poliRowA">Sacose banana farmacii umane</a><br>
+</div>
+<div class="container-fluid" id="whoWeAreContainer">
+    <div class="container">
+        <div class="row text-center" id="whoWeAreTitle">
+            <h1 id="whoWeAreH1">Cine suntem</h1>
+            <h3 id="whoWeAreH3">O echipă formată din 5 oameni care își dau toată silința<br>
+                să rezolve problema sacoșelor și pungilor în mileniul 3.
+            </h3>
         </div>
-        <div class="col-md-6 col-xs-12">
-            <img src="img/plastic-image-general.png" style="margin-top: 100px">
-            <h3 class="poliRowH3">General</h3>
-            <a href="" class="poliRowA">Sacose maiou</a><br>
-            <a href="" class="poliRowA">Sacose banana</a><br>
-            <a href="" class="poliRowA">Sacose maner aplicat</a><br>
+        <div class="row text-center" id="whoWeAreBody">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+                <h2 class="whoWeAreH2">Flaviu</h2>
+                <h5 class="whoWeAreH5">Știe tot ce mișcă în firmă, și se ocupă de când lumea, doar de vânzări.</h5>
+                <hr>
+                <h5 class="whoWeAreH5bottom">0724 89 89 47<br>
+                    flaviu.arieșanu@epk.ro</h5>
+            </div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+                <h2 class="whoWeAreH2">Simona</h2>
+                <h5 class="whoWeAreH5">Vorbește mult la telefon cu clienții și este responsabilă cu buna dispoziție.</h5>
+                <hr>
+                <h5 class="whoWeAreH5bottom">0729 00 31 91<br>
+                    simona.gergely@epk.ro</h5>
+            </div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+                <h2 class="whoWeAreH2">Clary</h2>
+                <h5 class="whoWeAreH5">Când nu trimite plicuri cu oferte în țară, se ocupă de clienții noi veniți.</h5>
+                <hr>
+                <h5 class="whoWeAreH5bottom">0770 70 72 44<br>
+                    clara.bucur@epk.ro</h5>
+            </div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+                <h2 class="whoWeAreH2">Petre</h2>
+                <h5 class="whoWeAreH5">Dacă nu se ocupă de expedierile de marfă, joacă poker online.</h5>
+                <hr>
+                <h5 class="whoWeAreH5bottom">0726 75 60 73<br>
+                    petru.ungur@epk.ro</h5>
+            </div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+                <h2 class="whoWeAreH2">Laura</h2>
+                <h5 class="whoWeAreH5">Ultima în listă, ține în spate tot Europack-ul.</h5>
+                <hr>
+                <h5 class="whoWeAreH5bottom">0729 00 07 27<br>
+                    laura@epk.ro</h5>
+            </div>
+
         </div>
+    </div>
+</div>
+<div class="container-fluid" id="FAQ">
+    <div class="container">
+        <div class="row text-center" id="faqRow">
+            <section>
+                <div class="page-header" id="intrebarifrecvente">
+                    <h1 id="FAQh1">Întrebări frecvente adresate de către clienți</h1>
+                </div> <!-- ends page header -->
+
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-0" data-toggle="collapse" data-parent="#accordion">
+                                    Ce este ecotaxa?Dar taxa pe kilogram?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-0" class="panel-collapse collapse"><!--if("in" together with panel panel-collapse,it will remain opened)-->
+                                <div class="panel-body">
+                                    Discutam despre 2 taxe distincte,care in cazul sacoselor din polietilena, coexista.Ambele se declara la Ministerul Mediului lunar.
+                                    1.    Ecotaxa se declara si plateste trimestrial, pana pe data de  25 a lunii urmatoare trimestrului in care s-a desfasurat activitatea. Suma datorata la AFM reprezinta numarul de sacose introduse pe piata nationala in perioada de raportare inmultit cu valoarea ecotaxei de 0,1 lei/bucata.
+                                    Ecotaxa se evidentiaza distinct pe documentele de vanzare, iar valoarea acesteia se afiseaza vizibil la punctul de vanzare, in vederea informarii consumatorilor finali.
+                                    2.    2 lei/kg – contributia pentru ambalaje introduse pe piata, este o taxa care se declara cantitativ lunar, iar suma se complecteaza doar la declaratia lunii decembrie, adica pana pe data de 25 ianuarie a anului urmator.
+
+                                    Mai multe informatii puteti gasi <a href="http://www.afm.ro/" target="_blank">aici.</a>
+                                </div>
+                            </div><!--ends panel collapse-1-->
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-1" data-toggle="collapse" data-parent="#accordion">
+                                    Care este cantitatea minima pentru produsele personalizate?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Va rugam sa nu va speriati de numarul mare de sacose.Discutati cu noi, si apoi decideti daca este mult.
+                                    Pentru sacosele ce contin grafica personalizata pe client,cantitatea minima este de 5000 bucati, atat la cele din
+                                    hartie cat si la cele din polietilena.
+                                    Pe de alta parte,daca se doreste personalizare pe pungi cu fund in V din hartie,cantitatea minima este
+                                    de 20.000 de bucati.
+                                </div>
+                            </div><!--ends panel collapse-2-->
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-2" data-toggle="collapse" data-parent="#accordion">
+                                    Care este modalitatea de livrare a produselor?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Cu autovehiculele proprii, acolo unde avem rute si ajung masinile noastre, iar in restul tarii prin
+                                    intermediul unei societatii de curierat. In cazul in care comanda dumneavoastra nu se ridica la suma necesara suportarii
+                                    transportului de catre societatea noastra, va trebui sa achitati contravaloarea transportului direct la curier, dar veti beneficia
+                                    de un  tarif special.
+                                </div>
+                            </div><!--ends panel collapse-2-->
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-3" data-toggle="collapse" data-parent="#accordion">
+                                    Ce modalitati de plata exista?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Produsele se achita la curier cand marfa este expediata prin intermediul unei firme de curierat(veti primii chitanta de la dansii,in numele nostru), la primirea coletului cand se folosesc autovehiculele proprii, sau prin transfer bancar.
+                                </div>
+                            </div><!--ends panel collapse-3-->
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-4" data-toggle="collapse" data-parent="#accordion">
+                                    Care este termenul de livrare al produselor?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Pentru produsele din stoc, termenul de livrare este de max 48 ore prin curier sau in ziua livrarii acolo unde ajung masinile
+                                    noastre,iar pentru produsele personalizate, termenul uzual este de 14 zile lucratoare la produsele din polietilena si 30, la cele din hartie.</div>
+                            </div><!--ends panel collapse-4-->
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#collapse-5" data-toggle="collapse" data-parent="#accordion">
+                                    Ce fel de garantie au produsele?<span class="glyphicon glyphicon-chevron-down"></span>
+                                </a>
+                            </div><!--end panel title-->
+                            <div id="collapse-5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Orice produs neconform se inlocuieste pe loc,fara protest.Ne bazam  doar pe ce ne comunicati dvs.,
+                                    avand doar rugamintea de a ne returna o parte din produsele neconforme pentru a putea remedia problema.
+                                </div>
+                            </div><!--ends panel collapse-5-->
+                        </div>
+                    </div>
+                </div><!-- ends panel group-->
+
+
+            </section>
+        </div>
+    </div>
+</div><!--end container-fluid id=faq-->
+<div class="container-fluid" id="contactUs">
+    <div class="container">
+        <div class="page-header">
+            <h1 id="contactH1">Contact</h1>
+            <p id="contactP">Plasează o comandă sau ia legătura cu noi pentru mai multe detalii!</p>
+        </div>
+
+        <div class="row" id="contactUsRow">
+            <div class="col-lg-5 col-md-12 col-xs-12">
+                <p id="addressBottom" class="text-center">
+                    <strong>Europack Wrapping Solutions</strong><br>
+
+                    Atelierelor 1
+                    hala 18/A,
+                    Deva, HD,
+                    Romania
+                    <br><br>
+                    <span>Tel.: 0354/401 242,
+                              0354/738 200<br>
+                              0354/401 241<br><br>
+                            </span>
+                    <span>Program: L-V 8-17 | S-D Închis</span>
+                </p>
+            </div>
+            <div class="col-lg-7 col-md-12 col-xs-12 text-center">
+                <form action="https://formspree.io/office@epk.ro" method="POST" class="form-horizontal">
+                    <h4 id="formH4">Contactează-ne acum!</h4>
+                    <img src="img/bags-mockup.png" id="mockUp">
+                    <!--recaptcha--><input type="text" title="" name="_gotcha" style="display:none"/>
+                    <input type="hidden" name="_next" value="//epk.ro/thankyou.html"/><!--recaptcha-->
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="user-name" placeholder="Introduceti numele si prenumele dumneavoastra">
+                    </div><!--ends from-group-->
+
+
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="user-email" placeholder="Introduceti email ul dumneavoastra">
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+                        <input type="text" name="website" class="form-control" id="user-website" placeholder="Website.Daca aveti unul. :)">
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+      	  		     		<textarea name="message" id="user-message" class="form-control"
+                                      cols="20" rows="10" placeholder="Introduceti mesajul/comanda dumneavoastra"></textarea>
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+                        <button type="submit" value="Send" class="formBTN">Trimite Mesajul</button>
+                    </div>
+                    <div class="form-group">
+                        <p id="formP"><span id="formPspan">Tel verde: </span>0800 41 02 02</p>
+                    </div>
+
+                </form>
+            </div><!--ends col-lg-8-->
+        </div><!-- ends row-->
+    </div>
+       <div class="row" style="height: 70px;background-color:white"></div>
+</div>
+<footer>
+    <div class="container text-center">
         <div class="row">
-                <div class="col-md-12 col-xs-12">
-                    <div class="borderBottomMiddleContainer"></div>
-                     <h2 id="borderBottomMiddleContainerH2">Pentru o oferta personalizata contacteaza-ne pe e-mail sau la numarul de telefon afisat >></h2>
-                </div>
-                <div class="col-md-12 col-xs-12">
-                    <button id="borderBottomMiddleContainerBtn"><a href="" id="borderBottomMiddleContainerA">Contacteaza-ne</a></button>
-                    <p id="telVerde"><span style="margin-right: 5px"><img src="img/shape.svg" ></span>0800 41 02 02</p>
-                    <div class="borderBottomMiddleContainer"></div>
-                </div>
-
-         </div>
-     </div><!--end row id="poliRowMiddle"-->
-
-</div>
+            <div class="col-lg-2 col-md-12 col-xs-12">
+               <img src="img/logo.png" id="logoFooter">
+            </div>
+            <div class="col-lg-5 col-md-12 col-xs-12">
+                <p id="footerP">© Copyright @ 2017 Europack Wrapping Solutions. Toate drepturile rezervate</p>
+            </div>
+            <div class="col-lg-5 col-md-12 col-xs-12">
+            <ul class="list-inline">
+                <li><a href=""> Termeni și condiții</a></li>
+                <li><a href="#"> Politica de confidențialitate</a></li>
+                <li><a href="http://www.anpc.gov.ro/" target="_blank">ANPC</a></li>
+                <li><a href="#landingContainer">Înapoi sus</a></li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 

@@ -4,17 +4,17 @@
 #paperRowMiddle{
     background: url(img/textured_paper.jpg) repeat;
     background-size:contain;
-
+    padding-bottom: 150px;
 }
-#middleH1Paper{
-    font-family: 'FiraSans',sans-serif;
+#middlePaperH1{
+    font-family: Fira Sans,sans-serif;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     color: #1e5253;
 }
 .paperRowH3 {
-    font-family: 'FiraSans',sans-serif;
+    font-family: Fira Sans,sans-serif;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 4.4px;
@@ -23,7 +23,7 @@
 }
 @media only screen and (max-width: 700px) {
     .paperRowH3 {
-        font-family: FiraSans,sans-serif;
+        font-family: Fira Sans,sans-serif;
         font-size: 20px;
         font-weight: bold;
         letter-spacing: normal;
@@ -33,7 +33,7 @@
 }
 .paperRowA{
     display: inline-table;
-    font-family: FiraSans,sans-serif;
+    font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 2.5;
@@ -43,17 +43,20 @@
 #poliRowMiddle{
     background: url(img/textured-polietilena.jpg);
     background-size:cover;
-
+    padding-bottom: 150px;
 }
-#middleH1Poli{
-    font-family: FiraSans,sans-serif;
+#middlePoliH1{
+    position: relative;
+    top: 35px;
+    margin-bottom: -30px;
+    font-family: Fira Sans,sans-serif;
     font-size: 36px;
     font-weight: 800;
     text-align: center;
     color: #2760aa;
 }
 .poliRowH3{
-    font-family: FiraSans,sans-serif;
+    font-family: Fira Sans,sans-serif;
     font-size: 22px;
     font-weight: bold;
     font-style: normal;
@@ -64,26 +67,26 @@
     color: #2760aa;
 }
 .poliRowA{
-    font-family: FiraSans,sans-serif;
+    font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 2.5;
     text-align: center;
     color: #4a4a4a;
 }
-.borderBottomMiddleContainer{
-    height: 2px;
-    background-color: #dbd1bd;
-    width: 100%;
+#borderBottomMiddleContainer{
+    border-top:2px solid #dbd1bd;
+    border-bottom:2px solid #dbd1bd ;
 }
 #borderBottomMiddleContainerH2{
-    margin-top: 40px;
-    font-family: FiraSans,sans-serif;
+    margin-top: 35px;
+    font-family: Fira Sans,sans-serif;
     font-size: 22px;
     font-weight: bold;
+    color: #2760aa;
 }
 #borderBottomMiddleContainerBtn{
-    margin-top: 25px;
+    margin-top: 15px;
     width: 170px;
     height: 48px;
     border-radius: 16px;
@@ -91,16 +94,16 @@
 
 }
 #borderBottomMiddleContainerA{
-    font-family: FiraSans,sans-serif;
+    font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 800;
     text-align: center;
     color: #ffffff;
 }
 #telVerde{
-    margin-top: 25px;
-    margin-bottom: 35px;
-    font-family: FiraSans,sans-serif;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 800;
     font-style: normal;
@@ -108,4 +111,47 @@
     line-height: normal;
     letter-spacing: normal;
     color: #1e5253;
+}
+#clientsOpinion{
+    background-color: #f3f3f3;
+}
+#clientsOpinionH1{
+    margin-top: 60px;
+    font-family: Fira Sans,sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.placeholder{
+    width: 102px;
+    height: 98px;
+    border-radius: 15px;
+}
+blockquote{
+    float: right;
+    font-family: Fira Sans,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.57;
+    color: #4a4a4a;
+}
+.col-md-6 > span {
+    font-family: Fira Sans,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.83;
+    color: #4a4a4a;
+}
+#oval{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    background-color: #dbd1bd;
+    border-radius: 50px;
+    margin-left:50.2%;
+    top: 12px;
 }

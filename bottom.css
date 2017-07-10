@@ -91,6 +91,9 @@ hr{
 #contactUs{
     background: url("img/harta-background.jpg");
 }
+#contactUsRow > .col-lg-6 > img {
+    border-radius: 17px;
+}
 #contactH1{
     font-family: Fira Sans,sans-serif;
     font-size: 36px;
@@ -104,8 +107,8 @@ hr{
     color: #4a4a4a;
 }
 #addressBottom{
+    margin-top: 10px;
     border-radius: 16px;
-    background-color: #d8d8d8;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;

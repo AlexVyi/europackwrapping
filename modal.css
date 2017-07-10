@@ -13,3 +13,18 @@ p{
     line-height: 3.14;
     color: #4a4a4a;
 }
+li{
+    font-family: Fira Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 3.67;
+    text-align: center;
+    color: #9b9b9b;
+}
+span{
+    font-family: Fira Sans,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.83;
+    color: #4a4a4a !important;
+}

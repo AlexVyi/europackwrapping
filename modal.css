@@ -28,3 +28,16 @@ span{
     line-height: 1.83;
     color: #4a4a4a !important;
 }
+.btnModal{
+    width: 100px;
+    height: 28px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, #e9ece9, #c6d3c6 89%, #e9ece9);
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+    border-top:none;
+    border-bottom: none;
+}

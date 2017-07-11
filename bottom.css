@@ -82,7 +82,7 @@ hr{
     font-weight: 500;
     color: #4a4a4a;
 }
-.glyphicon{
+  .glyphicon{
     width: 12px;
     height: 19.6px;
     color: #2760aa;
@@ -178,6 +178,7 @@ hr{
 
 }
 #formPspan{
+    color: #eff2ef;
     font-size: 12px;
     font-weight: 500;
 }

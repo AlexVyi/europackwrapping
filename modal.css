@@ -4,6 +4,8 @@ h4{
     font-weight: 800;
     color: #4a4a4a;
     border-bottom: 2px solid #dbd1bd;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-bottom: 15px;
 }
 p{
@@ -34,10 +36,24 @@ span{
     border-radius: 16px;
     background-image: linear-gradient(to right, #e9ece9, #c6d3c6 89%, #e9ece9);
 }
+.modal-content{
+    border-radius: 15px;
+}
 .modal-header{
     border-bottom: none;
 }
 .modal-footer{
     border-top:none;
     border-bottom: none;
+}
+.carousel-inner{
+    border-radius: 15px;
+
+}
+.carousel-control{
+    border-radius: 15px;
+    background-color: transparent;
+}
+.item > img {
+    margin-left: 30%;
 }

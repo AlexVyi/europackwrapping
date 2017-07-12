@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=yes">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="sacose personalizate">
+    <meta name="description" content="sacose personalizate or bust">
     <title>Sacose personalizate din polietilena si hartie</title>
     <link  rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Sans:500,500i,700,700i,800,800i">
     <link rel="stylesheet" href="Plugins/bootstrap/dist/css/bootstrap.min.css">
@@ -49,11 +49,11 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="#contactUs" id="navbarAtag">Contactează-ne</a></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="#paperRowMiddle">Oferte Sacoșe</a></li>
-                    <li><a href="#whoWeAreContainer">Despre noi</a></li>
-                    <li><a href="#contactUs">Contactati-ne</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
-                    <li><a href="#clientsOpinion">Testimoniale</a></li>
-                    <li><a href="#FAQ">Intrebări frecvente</a></li>
+                    <li><a href="#paperRowMiddle" class="navi">Oferte Sacoșe</a></li>
+                    <li><a href="#whoWeAreContainer" class="navi">Despre noi</a></li>
+                    <li><a href="#contactUs" class="navi">Contactati-ne</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
+                    <li><a href="#clientsOpinion" class="navi">Testimoniale</a></li>
+                    <li><a href="#FAQ" class="navi">Intrebări frecvente</a></li>
                 </ul>
             </div>
         </div> <!-- end container -->
@@ -457,21 +457,27 @@
 
         <div class="row" id="contactUsRow">
             <div class="col-lg-6 col-md-12 col-xs-12">
-                <img src="img/harta.jpg" class="img-responsive">
-                <p id="addressBottom" class="text-center">
-                    <strong>Europack Wrapping Solutions</strong><br>
+                <div class="row" id="subRowcontactUsRow">
+                    <div class="col-lg-12 col-md-6 col-xs-6">
+                        <img src="img/harta.jpg" class="img-responsive" style="border-radius: 17px;">
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-xs-6">
+                        <p id="addressBottom" class="text-center">
+                            <strong>Europack Wrapping Solutions</strong><br>
 
-                    Atelierelor 1
-                    hala 18/A,
-                    Deva, HD,
-                    Romania
-                    <br><br>
-                    <span>Tel.: 0354/401 242,
+                            Atelierelor 1
+                            hala 18/A,
+                            Deva, HD,
+                            Romania
+                            <br><br>
+                            <span>Tel.: 0354/401 242,
                               0354/738 200<br>
                               0354/401 241<br><br>
                             </span>
-                    <span>Program: L-V 8-17 | S-D Închis</span>
-                </p>
+                            <span>Program: L-V 8-17 | S-D Închis</span>
+                        </p>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 col-md-12 col-xs-12 text-center">
                 <form action="https://formspree.io/office@epk.ro" method="POST" class="form-horizontal">
@@ -521,10 +527,10 @@
             </div>
             <div class="col-lg-5 col-md-12 col-xs-12">
             <ul class="list-inline">
-                <li><a href="#"> Termeni și condiții</a></li>
-                <li><a href="#"> Politica de confidențialitate</a></li>
-                <li><a href="http://www.anpc.gov.ro/" target="_blank">ANPC</a></li>
-                <li><a href="#landingContainer">Înapoi sus</a></li>
+                <li><a href="#" class="foterA"> Termeni și condiții</a></li>
+                <li><a href="#" class="foterA"> Politica de confidențialitate</a></li>
+                <li><a href="http://www.anpc.gov.ro/" target="_blank" class="foterA">ANPC</a></li>
+                <li><a href="#landingContainer" class="foterA">Înapoi sus</a></li>
             </ul>
             </div>
         </div>

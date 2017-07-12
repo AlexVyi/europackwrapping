@@ -63,8 +63,9 @@ hr{
     text-align: center;
     color: #1e5253;
 }
-.panel-default{
-    border: none;
+.panel.panel-default{
+    border-radius: 16px;
+    border: transparent;
 }
 .panel-heading{
     border-radius: 16px;
@@ -82,18 +83,16 @@ hr{
     font-weight: 500;
     color: #4a4a4a;
 }
-  .glyphicon{
+.glyphicon-chevron-down{
     width: 12px;
     height: 19.6px;
-    color: #2760aa;
+    color: #2760aa !important;
     padding-left: 25px;
 }
 #contactUs{
     background: url("img/harta-background.jpg");
 }
-#contactUsRow > .col-lg-6 > img {
-    border-radius: 17px;
-}
+
 #contactH1{
     font-family: Fira Sans,sans-serif;
     font-size: 36px;
@@ -199,7 +198,7 @@ footer{
     font-weight: 500;
     color: #4a4a4a;
 }
-ul > li > a{
+.foterA{
     margin-top: 2px;
     font-family: Fira Sans,sans-serif;
     font-size: 12px;

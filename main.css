@@ -1,9 +1,11 @@
 
 #background{
-    background: url(img/epk-background.jpg) no-repeat;
-    background-position:center center;
+    background: url(img/epk-background.jpg) no-repeat center center;
     background-size: cover;
 
+}
+button{
+    border:none;
 }
 .img-responsive {
     display: inline-block;
@@ -55,8 +57,8 @@ address{
 .navi {                                /*nav atags*/
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    color: #4a4a4a;
+    font-weight: 400;
+    color: #4a4a4a !important;
 }
 #socialMediaRow{
    border-bottom: 2px solid #dbd1bd;

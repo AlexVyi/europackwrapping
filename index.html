@@ -62,7 +62,7 @@
 
     <div class="container" id="landingContainer">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2"><img src="img/epk-bags.png" class="img-responsive"></div>
+            <div class="col-lg-8 col-lg-offset-2"><img src="img/epk-bags@3x.png" class="img-responsive"></div>
         </div>
         <div class="row">
             <h1 id="landingH1">Polietilenă sau Hârtie?</h1>
@@ -74,16 +74,16 @@
         </div>
         <div class="row text-center" style="margin-top: 70px" id="landingBottomRow">
             <div class="col-md-4 col-xs-12">
-                <img src="img/003-medal.svg">
+                <img src="img/003-medal.svg" style="margin-bottom: 20px">
                 <p class="landingP">Suntem proactivi pentru că
                     ne ocupăm doar de sacoșe.</p>
             </div>
             <div class="col-md-4 col-xs-12">
-                <img src="img/002-law-scales.svg">
+                <img src="img/002-law-scales.svg" style="margin-bottom: 20px">
                 <p class="landingP">Rezolvăm orice situație apare, astfel încât să fim cu toții mulțumiți.</p>
             </div>
             <div class="col-md-4 col-xs-12">
-                <img src="img/001-time.svg">
+                <img src="img/001-time.svg" style="margin-bottom: 20px">
                 <p class="landingP">Gândim și facem lucrurile pe termen lung.
                     În orice situație.</p>
             </div>
@@ -449,37 +449,36 @@
     </div>
 </div><!--end container-fluid id=faq-->
 <div class="container-fluid" id="contactUs">
-    <div class="container">
+    <div class="container" id="container">
         <div class="page-header">
             <h1 id="contactH1">Contact</h1>
             <p id="contactP">Plasează o comandă sau ia legătura cu noi pentru mai multe detalii!</p>
         </div>
 
         <div class="row" id="contactUsRow">
-            <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <div class="row" id="subRowcontactUsRow">
-                    <div class="col-lg-12 col-md-6 col-xs-6">
-                        <img src="img/harta.jpg" class="img-responsive" style="border-radius: 17px;">
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                        <img src="img/harta.jpg" class="img-responsive" style="border-radius: 17px;" id="map">
                     </div>
-                    <div class="col-lg-12 col-md-6 col-xs-6">
-                        <p id="addressBottom" class="text-center">
-                            <strong>Europack Wrapping Solutions</strong><br>
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 text-center">
+                        <p class="addressBottom">
 
                             Atelierelor 1
                             hala 18/A,
                             Deva, HD,
                             Romania
                             <br><br>
-                            <span>Tel.: 0354/401 242,
-                              0354/738 200<br>
+                            <p class="addressBottom">Tel.: 0354/401 242,
+                              0354/738 200,
                               0354/401 241<br><br>
-                            </span>
-                            <span>Program: L-V 8-17 | S-D Închis</span>
+                            </p>
+                            <p class="addressBottom">Program: L-V 8-17 | S-D Închis</p>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-xs-12 text-center">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
                 <form action="https://formspree.io/office@epk.ro" method="POST" class="form-horizontal">
                     <h4 id="formH4">Contactează-ne acum!</h4>
                     <img src="img/bags-mockup.png" id="mockUp">
@@ -514,29 +513,30 @@
             </div>
         </div><!-- ends row-->
     </div>
-       <div class="row" style="height: 70px;background-color:white"></div>
+
 </div>
-<footer>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-2 col-md-12 col-xs-12">
-               <img src="img/logo.png" id="logoFooter">
-            </div>
-            <div class="col-lg-5 col-md-12 col-xs-12">
-                <p id="footerP">© Copyright @ 2017 Europack Wrapping Solutions. Toate drepturile rezervate</p>
-            </div>
-            <div class="col-lg-5 col-md-12 col-xs-12">
-            <ul class="list-inline">
-                <li><a href="#" class="foterA"> Termeni și condiții</a></li>
-                <li><a href="#" class="foterA"> Politica de confidențialitate</a></li>
-                <li><a href="http://www.anpc.gov.ro/" target="_blank" class="foterA">ANPC</a></li>
-                <li><a href="#landingContainer" class="foterA">Înapoi sus</a></li>
-            </ul>
+<div class="container-fluid"id="footerContainer">
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-2 col-md-12 col-xs-12">
+                    <img src="img/logo.png" id="logoFooter">
+                </div>
+                <div class="col-lg-5 col-md-12 col-xs-12">
+                    <p id="footerP">© Copyright @ 2017 Europack Wrapping Solutions. Toate drepturile rezervate</p>
+                </div>
+                <div class="col-lg-5 col-md-12 col-xs-12">
+                    <ul class="list-inline">
+                        <li><a href="#" class="foterA"> Termeni și condiții</a></li>
+                        <li><a href="#" class="foterA"> Politica de confidențialitate</a></li>
+                        <li><a href="http://www.anpc.gov.ro/" target="_blank" class="foterA">ANPC</a></li>
+                        <li><a href="#landingContainer" class="foterA">Înapoi sus</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
-
+    </footer>
+</div>
 
 
 

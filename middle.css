@@ -114,6 +114,7 @@
 }
 #clientsOpinion{
     background-color: #f3f3f3;
+    padding-bottom: 100px;
 }
 #clientsOpinionH1{
     margin-top: 60px;
@@ -125,12 +126,12 @@
 }
 
 .placeholder{
+    float: left;
     width: 102px;
     height: 98px;
     border-radius: 15px;
 }
 blockquote{
-    float: right;
     font-family: Fira Sans,sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -139,6 +140,7 @@ blockquote{
     color: #4a4a4a;
 }
 .col-md-6 > span {
+    float: left;
     font-family: Fira Sans,sans-serif;
     font-size: 12px;
     font-weight: bold;
@@ -153,5 +155,5 @@ blockquote{
     background-color: #dbd1bd;
     border-radius: 50px;
     margin-left:50.2%;
-    top: 12px;
+    top: 112px;
 }

@@ -77,6 +77,15 @@ hr{
     font-weight: 800;
     color: #4a4a4a;
 }
+.panel-title > a{
+    text-align: left;
+}
+.panel-title > a > span {
+    float: right;
+    padding-left: 0;
+    margin-right: 10px;
+    cursor: hand;
+}
 .panel-body{
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
@@ -219,7 +228,7 @@ footer > .container > .row {
         margin-top:-25px;
     }
    ::placeholder{
-       color: white;
+       text-align: left;
        max-width: 100%;
        font-size: 12px;
    }
@@ -240,6 +249,7 @@ footer > .container > .row {
 }
 @media only screen and (max-width:414px){
     ::placeholder{
+        text-align: left;
         width: 100%;
         font-size: 10px;
     }

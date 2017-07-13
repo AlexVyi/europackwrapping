@@ -65,11 +65,16 @@ address{
     padding-bottom: 10px;
 }
 #logo{
-
+    margin-left: -30px;
+    padding-left: 0;
     width: 245px;
     height: 60px;
     object-fit: contain;
 
+}
+.nav.navbar-nav{
+    margin-top: 7px;
+    float: right;
 }
 #navbarAtag{
     width: 138px;
@@ -106,6 +111,7 @@ address{
     color: #4a4a4a;
 }
 #landingBtnPoli {
+    margin-right: 3px;
     width: 170px;
     height: 48px;
     border-radius: 16px;
@@ -121,6 +127,7 @@ address{
     color: #495249;
 }
 #landingBtnHartie {
+    margin-left: 3px;
     width: 170px;
     height: 48px;
     border-radius: 16px;

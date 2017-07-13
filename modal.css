@@ -48,7 +48,7 @@ span{
 }
 .carousel-inner{
     border-radius: 15px;
-
+color: transparent;
 }
 .carousel-control{
     border-radius: 15px;
@@ -56,4 +56,8 @@ span{
 }
 .item > img {
     margin-left: 30%;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none
 }

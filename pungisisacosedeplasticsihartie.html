@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="main.css" type="text/css" media="all">
     <link rel="stylesheet" href="middle.css" type="text/css" media="all">
     <link rel="stylesheet" href="bottom.css" type="text/css" media="all">
-    <link rel="stylesheet" href="tooltips.css" type="text/css" media="all">
+
 </head>
 
 <body data-spy="scroll" data-target="#smart-navbar" onload="">
@@ -479,8 +479,9 @@
                     </div>
                 </div>
             </div>
+            <!--https://formspree.io/office@epk.ro-->
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                <form action="https://formspree.io/office@epk.ro" method="POST" class="form-horizontal">
+                <form onsubmit="thkx()" class="form-horizontal" id="myForm">
                     <h4 id="formH4">Contactează-ne acum!</h4>
                     <img src="img/bags-mockup.png" id="mockUp" alt="Pungi si sacose din polietilena si hartie, cu si fara imprimare" title="Pungi si sacose din polietilena si hartie">
                     <!--recaptcha--><input type="text" title="" name="_gotcha" style="display:none"/>
@@ -549,5 +550,6 @@
 
 <script src="Plugins/jquery/dist/jquery.min.js"></script>
 <script src="Plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/sexy.js"></script>
 </body>
 </html>

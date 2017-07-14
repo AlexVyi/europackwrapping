@@ -23,13 +23,13 @@ li{
     text-align: center;
     color: #9b9b9b;
 }
-span{
+/*span{
     font-family: Fira Sans,sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 1.83;
     color: #4a4a4a !important;
-}
+}*/
 .btnModal{
     width: 100px;
     height: 28px;

@@ -1,0 +1,10 @@
+body {
+    background: url(img/epk-background.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#contactUsRow {
+    margin-top: 100vh;
+}
+
+/*trebuie date alte id uri si refacut tot css ul*/

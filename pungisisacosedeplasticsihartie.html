@@ -469,30 +469,31 @@
                             hala 18/A,
                             Deva, HD,
                             Romania
-                            <br><br>
+                        </p>
+                            <br>
                             <p class="addressBottom">Tel.: 0354/401 242,
                               0354/738 200,
-                              0354/401 241<br><br>
+                              0354/401 241
                             </p>
+                        <br>
                             <p class="addressBottom">Program: L-V 8-17 | S-D Închis</p>
-                        </p>
+
                     </div>
                 </div>
             </div>
-            <!--https://formspree.io/office@epk.ro-->
+
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-                <form onsubmit="thkx()" class="form-horizontal" id="myForm">
-                    <h4 id="formH4">Contactează-ne acum!</h4>
+                <form  class="form-horizontal" id="firebaseForm">
+                    <h3 id="formH4">Contactează-ne acum!</h3>
                     <img src="img/bags-mockup.png" id="mockUp" alt="Pungi si sacose din polietilena si hartie, cu si fara imprimare" title="Pungi si sacose din polietilena si hartie">
-                    <!--recaptcha--><input type="text" title="" name="_gotcha" style="display:none"/>
-                    <input type="hidden" name="_next" value="//epk.ro/thankyou.html"/><!--recaptcha-->
+
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="user-name" placeholder="Introduceti numele si prenumele dumneavoastra">
+                        <input type="text" name="name" class="form-control" id="user-name" placeholder="Introduceti numele si prenumele dumneavoastra" required/>
                     </div><!--ends from-group-->
 
 
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control" id="user-email" placeholder="Introduceti email ul dumneavoastra">
+                        <input type="email" name="email" class="form-control" id="user-email" placeholder="Introduceti email ul dumneavoastra" required/>
                     </div><!--ends from-group-->
 
                     <div class="form-group">
@@ -500,12 +501,11 @@
                     </div><!--ends from-group-->
 
                     <div class="form-group">
-      	  		     		<textarea name="message" id="user-message" class="form-control"
-                                      cols="20" rows="10" placeholder="Introduceti mesajul/comanda dumneavoastra"></textarea>
+                        <textarea name="message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Introduceti mesajul/comanda dumneavoastra" required></textarea>
                     </div><!--ends from-group-->
 
                     <div class="form-group">
-                        <button type="submit" value="Send" class="formBTN">Trimite Mesajul</button>
+                        <button onclick="sendForm()" type="button"  class="formBTN" id="submitBtn">Trimite Mesajul</button>
                     </div>
                     <div class="form-group">
                         <p id="formP"><span id="formPspan">Tel verde: </span>0800 41 02 02</p>
@@ -542,14 +542,21 @@
 
 
 
-
-
-
-
-
-
+<script src="Plugins/firebase/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCTW4a0BVgKPKvb1daZfS3ZTaUKemO7Yrk",
+        authDomain: "europack-c8a70.firebaseapp.com",
+        databaseURL: "https://europack-c8a70.firebaseio.com",
+        projectId: "europack-c8a70",
+        storageBucket: "",
+        messagingSenderId: "258082913806"
+    };
+    firebase.initializeApp(config);
+</script>
 <script src="Plugins/jquery/dist/jquery.min.js"></script>
 <script src="Plugins/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="js/sexy.js"></script>
+<script src="js/pretty.js"></script>
 </body>
 </html>

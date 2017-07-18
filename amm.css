@@ -3,11 +3,14 @@ body {
     background-size: cover;
 }
 #ammContainer{
+    margin-top: 75px;
+    margin-bottom: 0;
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
     background-color: white;
 }
 #oval{
+    margin-top: 25px;
     margin-left: 47%;
     width: 56px;
     height: 56px;
@@ -34,12 +37,15 @@ body {
 
 }
 #saco-ele-tip-maiou{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
+    line-height: 1.42;
     letter-spacing: normal;
     color: #4a4a4a;
 
@@ -48,12 +54,15 @@ body {
     color: #2760aa;
 }
 #saco-ele-tip-banan{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
+    line-height: 1.42;
     letter-spacing: normal;
     color: #4a4a4a;
 
@@ -62,12 +71,15 @@ body {
     color: #2760aa;
 }
 #saco-ele-cu-m-ner-ap{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
+    line-height: 1.42;
     letter-spacing: normal;
     color: #4a4a4a;
 
@@ -76,12 +88,15 @@ body {
     color: #2760aa;
 }
 #saco-ele-din-h-rtie{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
+    line-height: 1.42;
     letter-spacing: normal;
     color: #4a4a4a;
 
@@ -89,7 +104,6 @@ body {
 #saco-ele-din-h-rtie > span{
     color: #1e5253;
 }
-
 
 
 
@@ -110,13 +124,12 @@ body {
     color: #4a4a4a;
 }
 .addressBottom{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: -15px;
     border-radius: 16px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.42;
     color: #4a4a4a;
 
 }
@@ -128,8 +141,8 @@ body {
 }
 
 .form-control{
-    width: 75%;
-    margin-left: 12.5%;
+    width: 80%;
+    margin-left: 11%;
     background-color: #1e5253;
     border-radius: 16px;
     border: solid 1px #ffffff;
@@ -144,7 +157,7 @@ body {
     margin-left:0;
 }
 #formH4{
-    padding-top: 35px;
+    padding-top: 28px;
     font-family: Fira Sans,sans-serif;
     font-size: 22px;
     font-weight: bold;
@@ -210,13 +223,44 @@ footer > .container > .row {
     padding-bottom: 30px;
 }
 @media only screen and (min-width:1024px){
+    #contactUscontainer{
+        max-height: 500px;
+    }
+    #contactUsRow{
+        height: 400px;
+    }
+    #lastRowAmmContainer{
+    margin-bottom: 150px;
+    }
+    .page-header{
+        border-bottom: none;
+    }
 
+    #firebaseForm {
+        margin-left: 75px;
+        max-width: 428px;
+        max-height: 600px;
+        top: -120px;
+        margin-bottom: -400px;
+        position: relative;
+    }
+    #map{
+        margin-left: 50px;
+    }
+    .addressBottom {
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    #footerContainer{
+        margin-top: 150px;
+    }
 }
+
 @media only screen and (max-width:414px){
     ::placeholder{
         text-align: left;
         width: 100%;
-        font-size: 10px;
+        font-size: 11px;
     }
     .form-control{
         width:80%;

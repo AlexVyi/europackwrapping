@@ -35,7 +35,7 @@
 
 
     <nav class="navbar navbar-default" id="smart-navbar" style="background-color: transparent;border: none">
-        <div class="container">
+        <div class="container" id="navContainer">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -58,110 +58,172 @@
         </div> <!-- end container -->
     </nav>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row" id="contactUsRow">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="row" id="subRowcontactUsRow">
-                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-                    <img src="img/harta.jpg" class="img-responsive" style="border-radius: 17px;" id="map" alt="Adresa Europack Wrapping Solutions" title="Ne gasiti aici!">
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-                    <p class="addressBottom">
-
-                        Atelierelor 1
-                        hala 18/A,
-                        Deva, HD,
-                        Romania
-
-                    </p>
-                    <br>
-                    <p class="addressBottom">Tel.: 0354/401 242,
-                        0354/738 200,
-                        0354/401 241
-                    </p>
-                    <br>
-                    <p class="addressBottom">Program: L-V 8-17 | S-D Închis</p>
-
-                </div>
+    <div class="container" id="ammContainer">
+        <div class="row">
+            <div id="oval"><p id="invalid-name">?</p></div>
+        </div>
+        <div class="row text-center">
+            <h1 id="polietilen-sau-h-rt">Polietilenă sau Hârtie</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <p class="pull-left" id="saco-ele-tip-maiou"><span>Sacoșele tip “Maiou”</span> fabricate din folie HDPE, prelucrată prin embosare, oferă un aspect deosebit dar mai ales rezistență datorată microreliefului din textura foliei.
+                    Rezistența unei sacoșe HDPE este cu 50% mai mare decât cea a unei sacoșe similare ca mărime, realizată din folie netedă, simplă și neprelucrată. 
+                    <br> <br> Realizăm sacoșe de acest tip,<span> personalizate sau nepersonalizate,</span> conform cererilor.
+                    Utilitatea maxima a acestor sacose o regăsim în comerțul cu amănuntul.
+                    Personalizarea sacoșei se poate realiza în maxim 2 culori.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="img/amm/poli-maiou.jpg">
             </div>
         </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-            <form  class="form-horizontal" id="firebaseForm">
-                <h3 id="formH4">Contactează-ne acum!</h3>
-                <img src="img/bags-mockup.png" id="mockUp" alt="Pungi si sacose din polietilena si hartie, cu si fara imprimare" title="Pungi si sacose din polietilena si hartie">
-
-                <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="user-name" placeholder="Introduceti numele si prenumele dumneavoastra" required/>
-                </div><!--ends from-group-->
-
-
-                <div class="form-group">
-                    <input type="email" name="email" class="form-control" id="user-email" placeholder="Introduceti email ul dumneavoastra" required/>
-                </div><!--ends from-group-->
-
-                <div class="form-group">
-                    <input type="text" name="website" class="form-control" id="user-website" placeholder="Website.Daca aveti unul. :)">
-                </div><!--ends from-group-->
-
-                <div class="form-group">
-                    <textarea name="message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Introduceti mesajul/comanda dumneavoastra" required></textarea>
-                </div><!--ends from-group-->
-
-                <div class="form-group">
-                    <button onclick="sendForm()" type="button"  class="formBTN" id="submitBtn">Trimite Mesajul</button>
-                </div>
-                <div class="form-group">
-                    <p id="formP"><span id="formPspan">Tel verde: </span>0800 41 02 02</p>
-                </div>
-
-            </form>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="img/amm/poli-banana.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <p class="pull-right" id="saco-ele-tip-banan">
+                    <span>Sacoșele tip “Banană”</span> cu întăritura la mâner, se realizează din polietilenă de înaltă, medie sau joasă densitate, conform cerințelor dumneavoastră.
+                    Sacoșa are strălucire și durabilitate, fără deformare orizontală sau verticală putând fi folosită în orice împrejurare.
+                    De la cadouri corporate și până la magazinele de proximitate.
+                    Personalizarea sacoșei se poate realiza în maxim 6 culori. 
+                </p>
+            </div>
         </div>
-    </div><!-- ends row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <p class="pull-left"  id="saco-ele-cu-m-ner-ap"> <span>Sacoșele cu mâner aplicat (cu torti)</span> sunt cele mai elegante sacoșe personalizate. Acestea sunt mai rar întâlnite datorită dificultății tehnice de realizare însă se evidențiază ușor fiind un plus de imagine pentru companiile care aleg să le folosească.
+                    Sacoșă cu mâner aplicat intră în categoria obiectelor promoționale foarte apreciate.
+                    Sunt apreciate în general de segmentul deținătorilor de magazine care se adresează la rândul lor categoriilor medii și superioare de consumatori, în special textile, electronice sau expozanți la evenimente speciale (târguri, expoziții sau simpozioane).
+                    Pentru rezistență, acest tip de sacoșă este prevăzut la mâner cu întăritură dublă termosudată. 
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="img/amm/poli-maner.jpg">
+            </div>
+        </div> <!--ends row surrounding cols-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="img/amm/hartie.jpg">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <p id="saco-ele-din-h-rtie"><span>Sacoșele din hârtie,</span> reprezintă o opțiune din ce în ce mai avantajoasă pentru comercianţii de confecţii și încălțăminte,
+                    pentru cei ce efectuează activități de catering, companiile media și de advertising, care oferă diferite obiecte promoționale cu sau fără personalizare,
+                    și nu în ultimul rând pentru cadouri corporate.<br><br>
+                    <span>Pungile din hârtie,</span> reprezintă cel mai bun ambalaj pentru făină, mălai, pesmet, griș, zahăr și tot spectrul alimentar ce necesită o formă de ambalare pentru expunere.
+                    Excelează de asemenea în domeniul farmaceutic.
+                    Capacitatea de ambalare este cuprinsă între 0,5 si 50 kg.
+                    Pungile sunt ambalate și livrate în cutii de carton ondulat, paletizate.
+                    Comercializarea în bune condiții a semințelor tratate și a nutrețurilor combinate destinate zootehniei, necesită ambalaje din hârtie – pungi și saci – cu o rezistență mecanică sporită.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" id="contactUscontainer">
+        <div class="row" id="contactUsRow1">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row" id="subRowcontactUsRow">
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                        <img src="img/harta.jpg" class="img-responsive" style="border-radius: 17px;" id="map" alt="Adresa Europack Wrapping Solutions" title="Ne gasiti aici!">
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                        <p class="addressBottom">
+
+                            Atelierelor 1
+                            hala 18/A,
+                            Deva, HD,
+                            Romania
+
+                        </p>
+                        <br>
+                        <p class="addressBottom">Tel.: 0354/401 242,
+                            0354/738 200,
+                            0354/401 241
+                        </p>
+                        <br>
+                        <p class="addressBottom">Program: L-V 8-17 | S-D Închis</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+                <form  class="form-horizontal" id="firebaseForm">
+                    <h3 id="formH4">Contactează-ne acum!</h3>
+                    <img src="img/bags-mockup.png" id="mockUp" alt="Pungi si sacose din polietilena si hartie, cu si fara imprimare" title="Pungi si sacose din polietilena si hartie">
+
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="user-name" placeholder="Introduceti numele si prenumele dumneavoastra" required/>
+                    </div><!--ends from-group-->
+
+
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="user-email" placeholder="Introduceti email ul dumneavoastra" required/>
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+                        <input type="text" name="website" class="form-control" id="user-website" placeholder="Website.Daca aveti unul. :)">
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+                        <textarea name="message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Introduceti mesajul/comanda dumneavoastra" required></textarea>
+                    </div><!--ends from-group-->
+
+                    <div class="form-group">
+                        <button onclick="sendForm()" type="button"  class="formBTN" id="submitBtn">Trimite Mesajul</button>
+                    </div>
+                    <div class="form-group">
+                        <p id="formP"><span id="formPspan">Tel verde: </span>0800 41 02 02</p>
+                    </div>
+
+                </form>
+            </div>
+        </div><!-- ends row-->
+    </div>
 
 
 <div class="container-fluid"id="footerContainer">
@@ -179,7 +241,7 @@
                         <li><a href="#" class="foterA"> Termeni și condiții</a></li>
                         <li><a href="#" class="foterA"> Politica de confidențialitate</a></li>
                         <li><a href="http://www.anpc.gov.ro/" target="_blank" class="foterA">ANPC</a></li>
-                        <li><a href="#landingContainer" class="foterA">Înapoi sus</a></li>
+                        <li><a href="#socialmediacontainer" class="foterA">Înapoi sus</a></li>
                     </ul>
                 </div>
             </div>

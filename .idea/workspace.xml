@@ -2,169 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2fa77ac-13ac-45df-9e1e-11686dc6fbd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-app-externs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-app.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-auth-externs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-auth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-database-externs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-database.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-database.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-messaging-externs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-messaging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-messaging.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-storage-externs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-storage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase-storage.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plugins/firebase/firebase.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aflamaimulte.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/amm.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/pretty.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-albastru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-albastru@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-albastru@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-rosie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-rosie@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-rosie@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-roz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-roz@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-roz@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-verde.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-verde@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/buline-verde@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/carouri.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/carouri@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/carouri@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/coltare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/coltare@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/coltare@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-1@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-4@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-4@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-5@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-5@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-7@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/file-7@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft-1@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft-1@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/kraft@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-1@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/layer-2@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/maro.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/maro@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/maro@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/mov.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/mov@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/mov@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/plastic-alba-rotund@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/portocaliu.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/portocaliu@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/portocaliu@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-umane.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-umane@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-umane@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-veterinare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-veterinare@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-farmacii-veterinare@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-decupat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-decupat@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-decupat@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-rasucit.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-rasucit@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-general-rasucit@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-inv.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-inv@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-inv@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-alb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-alb@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-alb@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-natur.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-natur@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-kraft-natur@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/pungi-panificatie@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu-1@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu-1@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/rosu@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/roz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/roz@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/roz@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-banana.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-banana@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-banana@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacosa-maiou@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-banana.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-banana@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-banana@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-maiou.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-maiou@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-farmacii-maiou@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maiou-veterinare.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maiou-veterinare@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maiou-veterinare@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maner-aplicat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maner-aplicat@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/sacose-maner-aplicat@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde-1@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde-1@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde@2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/modals/verde@3x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/sexy.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal1.html" afterPath="$PROJECT_DIR$/pages/modal1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal10.html" afterPath="$PROJECT_DIR$/pages/modal10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal11.html" afterPath="$PROJECT_DIR$/pages/modal11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal12.html" afterPath="$PROJECT_DIR$/pages/modal12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal2.html" afterPath="$PROJECT_DIR$/pages/modal2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal3.html" afterPath="$PROJECT_DIR$/pages/modal3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal4.html" afterPath="$PROJECT_DIR$/pages/modal4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal5.html" afterPath="$PROJECT_DIR$/pages/modal5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal6.html" afterPath="$PROJECT_DIR$/pages/modal6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal7.html" afterPath="$PROJECT_DIR$/pages/modal7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal8.html" afterPath="$PROJECT_DIR$/pages/modal8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/modal9.html" afterPath="$PROJECT_DIR$/pages/modal9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aflamaimulte.html" afterPath="$PROJECT_DIR$/aflamaimulte.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/amm.css" afterPath="$PROJECT_DIR$/amm.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bottom.css" afterPath="$PROJECT_DIR$/bottom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pungisisacosedeplasticsihartie.html" afterPath="$PROJECT_DIR$/pungisisacosedeplasticsihartie.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -179,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="amm.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/amm.css">
+      <file leaf-file-name="aflamaimulte.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+            <state relative-caret-position="578">
+              <caret line="112" column="75" lean-forward="false" selection-start-line="112" selection-start-column="75" selection-end-line="112" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aflamaimulte.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
+      <file leaf-file-name="amm.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amm.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="635">
+              <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -245,7 +86,6 @@
         <option value="$PROJECT_DIR$/modal6.html" />
         <option value="$PROJECT_DIR$/modal8.html" />
         <option value="$PROJECT_DIR$/pages/thankyou.html" />
-        <option value="$PROJECT_DIR$/bottom.css" />
         <option value="$PROJECT_DIR$/modal.css" />
         <option value="$PROJECT_DIR$/thankyou.html" />
         <option value="$PROJECT_DIR$/main.css" />
@@ -264,8 +104,9 @@
         <option value="$PROJECT_DIR$/pages/modal8.html" />
         <option value="$PROJECT_DIR$/pages/modal7.html" />
         <option value="$PROJECT_DIR$/pungisisacosedeplasticsihartie.html" />
-        <option value="$PROJECT_DIR$/aflamaimulte.html" />
+        <option value="$PROJECT_DIR$/bottom.css" />
         <option value="$PROJECT_DIR$/amm.css" />
+        <option value="$PROJECT_DIR$/aflamaimulte.html" />
       </list>
     </option>
   </component>
@@ -282,9 +123,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Plugins/bootstrap/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -302,8 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,15 +153,26 @@
               <item name="europackwrapping" type="b2602c69:ProjectViewProjectNode" />
               <item name="europackwrapping" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="europackwrapping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="europackwrapping" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="europackwrapping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="europackwrapping" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -428,42 +281,37 @@
       <workItem from="1499757321119" duration="1880000" />
       <workItem from="1499881290460" duration="3305000" />
       <workItem from="1500027452769" duration="593000" />
+      <workItem from="1500370060640" duration="6068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118260000" />
+    <option name="totallyTimeSpent" value="124379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08530806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1430585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5018431" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.49815693" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -549,37 +397,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pretty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/sexy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pretty.js" />
+    <entry file="file://$PROJECT_DIR$/js/sexy.js" />
     <entry file="file://$PROJECT_DIR$/pages/modal3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -587,15 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/modal1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +420,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="42" column="34" lean-forward="true" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,7 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,42 +487,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pungisisacosedeplasticsihartie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="477" column="28" lean-forward="false" selection-start-line="477" selection-start-column="28" selection-end-line="477" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="185">
+          <caret line="460" column="16" lean-forward="false" selection-start-line="460" selection-start-column="16" selection-end-line="460" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bottom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="257" column="5" lean-forward="false" selection-start-line="257" selection-start-column="5" selection-end-line="257" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="277" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
+    <entry file="file://$PROJECT_DIR$/pages/modal1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/amm.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="50" lean-forward="false" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        <state relative-caret-position="635">
+          <caret line="89" column="19" lean-forward="false" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="112" column="75" lean-forward="false" selection-start-line="112" selection-start-column="75" selection-end-line="112" selection-end-column="75" />
           <folding />
         </state>
       </provider>

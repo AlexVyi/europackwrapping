@@ -114,13 +114,14 @@ hr{
     font-weight: 500;
     color: #4a4a4a;
 }
-.addressBottom{
+#addressBottom{
     margin-top: 10px;
     margin-bottom: -15px;
     border-radius: 16px;
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.42;
     color: #4a4a4a;
 
 }
@@ -259,7 +260,7 @@ footer > .container > .row {
     #footerContainer{
         margin-top: 150px;
     }
-    .addressBottom{
+    #addressBottom{
         margin-bottom: -25px;
         white-space: nowrap;
     }

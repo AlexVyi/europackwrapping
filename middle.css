@@ -1,5 +1,6 @@
 #paperRow {
-    background: url(img/textured-paper-margin.jpg) center center;
+    background: url(img/textured_paper_margin.png) center center;
+    background-size: cover;
 }
 #paperRowMiddle{
     background: url(img/textured_paper.jpg) repeat;
@@ -91,6 +92,14 @@
     height: 48px;
     border-radius: 16px;
     background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
+
+}
+#borderBottomMiddleContainerBtn:hover{
+    margin-top: 15px;
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, #408a8b, #1e5253 89%, #3f8a8b);
 
 }
 #borderBottomMiddleContainerA{

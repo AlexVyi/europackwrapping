@@ -12,15 +12,17 @@
     <link rel="stylesheet" href="main.css" type="text/css" media="all">
     <link rel="stylesheet" href="middle.css" type="text/css" media="all">
     <link rel="stylesheet" href="bottom.css" type="text/css" media="all">
+    <link rel="icon"  sizes="16x16" href="favicon/favicon-3.ico">
 
 </head>
 
 <body data-spy="scroll" data-target="#smart-navbar" onload="">
+<!-- mibew button --><a id="mibew-agent-button" href="mibew/chat?locale=en" target="_blank" onclick="Mibew.Objects.ChatPopups['593bda203babc1c6'].open();return false;"><img src="/mibew/b?i=mibew&amp;lang=en" border="0" alt="" class="img-responsive" id="chatImg" style="position: fixed;margin-top: 150px;margin-left: 30px;" /></a><script type="text/javascript" src="/mibew/js/compiled/chat_popup.js"></script><script type="text/javascript">Mibew.ChatPopup.init({"id":"593bda203babc1c6","url":"\/mibew\/chat?locale=en","preferIFrame":true,"modSecurity":false,"width":640,"height":480,"resizable":true,"styleLoader":"\/mibew\/chat\/style\/popup"});</script><!-- / mibew button -->
 <div class="container-fluid" id="background" style="height: 100%">
     <div class="container" id="socialmediacontainer">
         <div class="row" id="socialMediaRow">
             <div class="col-lg-5 col-sm-3 col-md-4">
-                <a href="https://www.pinterest.com/europack/"><img src="img/pinterest.svg" href="epk.ro" style="padding-right:20px" alt="Twitter" title="Twitter"></a>
+                <a href="https://www.pinterest.com/europack/"><img src="img/pinterest.svg" style="padding-right:20px" alt="Pinterest" title="Pinterest"></a>
                 <a href="https://www.linkedin.com/company/europack-solutions"><img src="img/in.svg" style="padding-right:20px" alt="LinkedIn" title="LinkedIn"></a>
                 <a href="https://www.facebook.com/epk.ro"><img src="img/fb.svg" style="padding-right:20px" alt="Facebook" title="Facebook"></a>
             </div>
@@ -30,7 +32,7 @@
                 <address>
                     Atelierelor 1, Hala 18/A, Deva, Hunedoara
                 </address>
-                <img src="img/pin.svg" style="float: right;padding-right: 15px;" alt="locatia exacta a societatii noastre" title="Ne gasiti aici">
+                <img src="img/pin.svg" style="float: right;padding-right: 15px;cursor: hand" alt="locatia exacta a societatii noastre" title="Ne gasiti aici" id="locatia" onclick="findUs()">
             </div>
         </div>
     </div><!--end container-->

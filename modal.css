@@ -48,14 +48,14 @@ li{
 }
 .carousel-inner{
     border-radius: 15px;
-color: transparent;
+    color: transparent;
 }
 .carousel-control{
     border-radius: 15px;
     background-color: transparent;
 }
 .item > img {
-    margin-left: 30%;
+    margin-left: 24%;
 }
 .carousel-control.left,
 .carousel-control.right {

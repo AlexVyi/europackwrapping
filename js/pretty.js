@@ -29,3 +29,11 @@ function sendForm() {
 }
 
 
+function findUs(){
+    var locate = document.getElementById('locatia');
+    if(locate){
+        window.location.href = "http://maps.google.com/?q=Aleea Atelierelor 1, Deva, Hunedoara County"
+    }
+}
+
+

@@ -61,3 +61,8 @@ li{
 .carousel-control.right {
     background-image: none
 }
+@media only screen and (max-width:414px){
+    .item > img {
+        margin-left: 0;
+    }
+}

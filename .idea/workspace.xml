@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2fa77ac-13ac-45df-9e1e-11686dc6fbd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/alert.js" afterPath="$PROJECT_DIR$/js/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pretty.js" afterPath="$PROJECT_DIR$/js/pretty.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,28 +23,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="553" column="41" lean-forward="false" selection-start-line="548" selection-start-column="7" selection-end-line="553" selection-end-column="41" />
+            <state relative-caret-position="52">
+              <caret line="485" column="22" lean-forward="false" selection-start-line="485" selection-start-column="22" selection-end-line="485" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pretty.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pretty.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/pretty.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alert.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/alert.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="685">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -114,10 +106,10 @@
         <option value="$PROJECT_DIR$/pages/modal12.html" />
         <option value="$PROJECT_DIR$/modal.css" />
         <option value="$PROJECT_DIR$/thankyou.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aflamaimulte.html" />
-        <option value="$PROJECT_DIR$/js/pretty.js" />
         <option value="$PROJECT_DIR$/js/alert.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/pretty.js" />
       </list>
     </option>
   </component>
@@ -141,10 +133,9 @@
     <dismissed value="$PROJECT_DIR$/Plugins/bootstrap/package.json" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="583" />
-    <option name="y" value="22" />
-    <option name="width" value="807" />
-    <option name="height" value="832" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -156,7 +147,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>Handlebars/Mustache</id>
+            <id>AngularJS</id>
           </State>
         </selected-state>
       </profile-state>
@@ -178,7 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +185,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -206,7 +197,7 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Linters.JSLint" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.selected.package.jscs" value="/usr/local/lib/node_modules/jscs" />
@@ -322,15 +313,18 @@
       <workItem from="1500370060640" duration="6068000" />
       <workItem from="1500474539319" duration="2474000" />
       <workItem from="1500547468222" duration="1676000" />
-      <workItem from="1500589377767" duration="2539000" />
+      <workItem from="1500589377767" duration="2756000" />
+      <workItem from="1500725260674" duration="4791000" />
+      <workItem from="1500903346714" duration="1825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147691000" />
+    <option name="totallyTimeSpent" value="154524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09478673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -550,26 +544,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="553" column="41" lean-forward="false" selection-start-line="548" selection-start-column="7" selection-end-line="553" selection-end-column="41" />
+        <state relative-caret-position="52">
+          <caret line="485" column="22" lean-forward="false" selection-start-line="485" selection-start-column="22" selection-end-line="485" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/pretty.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/alert.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="685">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>

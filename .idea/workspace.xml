@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2fa77ac-13ac-45df-9e1e-11686dc6fbd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aflamaimulte.html" afterPath="$PROJECT_DIR$/aflamaimulte.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/pretty.js" afterPath="$PROJECT_DIR$/js/pretty.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +19,27 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="769">
-              <caret line="585" column="28" lean-forward="true" selection-start-line="575" selection-start-column="0" selection-end-line="585" selection-end-column="28" />
+            <state relative-caret-position="538">
+              <caret line="574" column="23" lean-forward="true" selection-start-line="574" selection-start-column="0" selection-end-line="574" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aflamaimulte.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pretty.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/pretty.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="2" column="73" lean-forward="false" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aflamaimulte.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
+            <state relative-caret-position="748">
               <caret line="278" column="32" lean-forward="false" selection-start-line="278" selection-start-column="32" selection-end-line="278" selection-end-column="32" />
               <folding />
             </state>
@@ -103,11 +111,11 @@
         <option value="$PROJECT_DIR$/pages/modal12.html" />
         <option value="$PROJECT_DIR$/modal.css" />
         <option value="$PROJECT_DIR$/thankyou.html" />
-        <option value="$PROJECT_DIR$/js/pretty.js" />
         <option value="$PROJECT_DIR$/js/alert.js" />
         <option value="$PROJECT_DIR$/amm.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/aflamaimulte.html" />
+        <option value="$PROJECT_DIR$/js/pretty.js" />
       </list>
     </option>
   </component>
@@ -155,6 +163,11 @@
             <path>
               <item name="europackwrapping" type="b2602c69:ProjectViewProjectNode" />
               <item name="europackwrapping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="europackwrapping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="europackwrapping" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148569000" />
+    <option name="totallyTimeSpent" value="148743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -295,7 +308,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32825205" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -497,14 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pretty.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="100" lean-forward="true" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/alert.js" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,16 +527,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="585" column="28" lean-forward="true" selection-start-line="575" selection-start-column="0" selection-end-line="585" selection-end-column="28" />
+        <state relative-caret-position="538">
+          <caret line="574" column="23" lean-forward="true" selection-start-line="574" selection-start-column="0" selection-end-line="574" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aflamaimulte.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
+        <state relative-caret-position="748">
           <caret line="278" column="32" lean-forward="false" selection-start-line="278" selection-start-column="32" selection-end-line="278" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pretty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="2" column="73" lean-forward="false" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
           <folding />
         </state>
       </provider>

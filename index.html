@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="main.css" type="text/css" media="all">
     <link rel="stylesheet" href="middle.css" type="text/css" media="all">
     <link rel="stylesheet" href="bottom.css" type="text/css" media="all">
+    <link rel="stylesheet" href="overlay.css" type="text/css" media="all">
     <link rel="icon"  sizes="16x16" href="favicon/favicon-3.ico">
     <!--google analitics-->
     <script>
@@ -24,10 +25,16 @@
         ga('send', 'pageview');
     </script>
     <!-- end google analitics-->
-
 </head>
 
-<body data-spy="scroll" data-target="#smart-navbar" onload="">
+<div id="overlay-wrapper">
+    <div id="overlay-content-box">
+        <img src="img/cuponAugust.png" class="img-responsive thumbnail" id="overlayImg">
+    </div>
+</div>
+
+
+<body data-spy="scroll" data-target="#smart-navbar"   onload="removeOverlay()">
 <div class="container-fluid" id="background" style="height: 100%">
     <div class="container" id="socialmediacontainer">
         <div class="row" id="socialMediaRow">

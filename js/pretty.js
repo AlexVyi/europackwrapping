@@ -40,4 +40,12 @@ function findUs() {
     }
 }
 
+function removeOverlay() {
+    setTimeout(function(){
+        var html = document.body;
+        var ovlay = document.getElementById('overlay-wrapper');
+         html.removeChild(ovlay);
+        }, 7000);
+}
+
 

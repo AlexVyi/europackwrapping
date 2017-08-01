@@ -17,8 +17,3 @@
     z-index: 200;
 }
 
-@media only screen and (min-width: 769px){
-    #overlayImg{
-        margin-left: 20%;
-    }
-}

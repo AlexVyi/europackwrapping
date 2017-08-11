@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="ro" ng-app="epk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,10 +31,11 @@
     <div id="overlay-content-box" class="container text-center">
         <img src="img/cuponAugust.png" class="img-responsive thumbnail" id="overlayImg">
     </div>
+      onload="removeOverlay()"
 </div>-->
 
 
-<body data-spy="scroll" data-target="#smart-navbar"   onload="removeOverlay()">
+<body data-spy="scroll" data-target="#smart-navbar" ng-controller="langController">
 <div class="container-fluid" id="background" style="height: 100%">
     <div class="container" id="socialmediacontainer">
         <div class="row" id="socialMediaRow">
@@ -54,6 +55,8 @@
         </div>
     </div><!--end container-->
 
+    <button ng-click="loadLanguage()">Load RO!</button>
+    <button ng-click="loadLanguageEngl()">Load EN!</button>
 
     <nav class="navbar navbar-default" id="smart-navbar" style="background-color: transparent;border: none">
         <div class="container">
@@ -69,11 +72,11 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="#contactUs" id="navbarAtag">Contactează-ne</a></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="#paperRowMiddle" class="navi">Oferte Sacoșe</a></li>
-                    <li><a href="#clientsOpinion" class="navi">Testimoniale</a></li>
-                    <li><a href="#whoWeAreContainer" class="navi">Despre noi</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
-                    <li><a href="#FAQ" class="navi">Intrebări frecvente</a></li>
-                    <li><a href="#contactUs" class="navi">Contactati-ne</a></li>
+                    <li><a href="#paperRowMiddle" class="navi" ng-bind="nav"></a></li>
+                    <li><a href="#clientsOpinion" class="navi" ng-bind="nav1"></a></li>
+                    <li><a href="#whoWeAreContainer" class="navi" ng-bind="nav2"></a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
+                    <li><a href="#FAQ" class="navi" ng-bind="nav3"></a></li>
+                    <li><a href="#contactUs" class="navi" ng-bind="nav4"></a></li>
                 </ul>
             </div>
         </div> <!-- end container -->
@@ -575,6 +578,8 @@
 </script>
 <script src="Plugins/jquery/dist/jquery.min.js"></script>
 <script src="Plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="Plugins/angular/angular.min.js"></script>
+<script src="js/controllers.js"></script>
 <script src="js/pretty.js"></script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

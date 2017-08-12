@@ -18,6 +18,16 @@ button{
     #navbarBtnAtag{
         display: none;
     }
+    .container .lang{
+        font-size: 10px;
+        float: none;
+    }
+    #langCols{
+        padding-left: 0;
+    }
+    #RO{
+        margin-left: 0;
+    }
 }
 @media only screen and (min-width: 1440px) {
     .tel{
@@ -73,13 +83,30 @@ address{
     object-fit: contain;
 
 }
+
+.lang {
+    float: right;
+    cursor: pointer;
+    display: inline;
+    font-family: Fira Sans, sans-serif;
+    font-size: 12px;
+    margin-left: 7px;
+    margin-top: 18px;
+}
+.flag-icon{
+    padding-top: 2px;
+    margin-right: 3px;
+}
 .nav.navbar-nav{
     margin-top: 7px;
     float: right;
 }
 #navbarAtag{
-    width: 138px;
-    height: 23px;
+    float: right;
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
     font-family:Fira Sans, sans-serif;
     font-size: 16px;
     font-weight: 800;
@@ -89,15 +116,10 @@ address{
     text-decoration: none;
 
 }
-#navbarBtnAtag {
-    float: right;
-    width: 170px;
-    height: 48px;
-    border-radius: 16px;
-    background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
-
+.navbar-btn{/*class from this id:#navbarAtag.same as #landingBtnPoliA paired with .btn class.*/
+    padding-top: 12px;
 }
-#navbarBtnAtag:hover {
+#navbarAtag:hover {
     float: right;
     width: 170px;
     height: 48px;
@@ -119,32 +141,31 @@ address{
     text-align: center;
     color: #4a4a4a;
 }
-#landingBtnPoli {
-    margin-right: 3px;
-    width: 170px;
-    height: 48px;
-    border-radius: 16px;
-    background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
 
-
-}
-#landingBtnPoli:hover {
+#landingBtnPoliA:hover {
     margin-right: 3px;
     width: 170px;
     height: 48px;
     border-radius: 16px;
     background-image: linear-gradient(to right, #408a8b, #1e5253 89%, #3f8a8b);
 
-
 }
 #landingBtnPoliA{
+    border: none;
+    margin-right: 3px;
+    width: 170px;
+    height: 48px;
+    border-radius: 16px;
+    background-image: linear-gradient(to left, #408a8b, #1e5253 89%, #3f8a8b);
     font-family: Fira Sans,sans-serif;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
     color: #ffffff;
 }
-
+.btn{
+    padding-top: 12px;
+}
 
 .landingP{
     margin-top: 10px;

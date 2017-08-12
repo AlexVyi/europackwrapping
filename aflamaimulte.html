@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro" ng-app="epk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Plugins/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="amm.css" type="text/css" media="all">
     <link rel="stylesheet" href="main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="Plugins/flag-icon-css/css/flag-icon.min.css" type="text/css" media="all">
     <link rel="icon"  sizes="16x16" href="favicon/favicon-3.ico">
     <!--google analitics-->
     <script>
@@ -23,8 +24,18 @@
     </script>
     <!-- end google analitics-->
 </head>
-<body data-spy="scroll" data-target="#smart-navbar" onload="">
-
+<body data-spy="scroll" data-target="#smart-navbar" onload="" ng-controller="langController" data-ng-init="init()">
+<!--languages divs-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 col-sm-4 col-md-4 col-lg-offset-7 col-sm-offset-8 col-md-offset-8" id="langCols">
+            <div class="lang" ng-click="loadLanguage()" id="RO"><span class="flag-icon flag-icon-ro"></span>Româna</div>
+            <div class="lang" ng-click="loadLanguageEngl()"><span class="flag-icon flag-icon-gb"></span>English</div>
+            <div class="lang" ng-click="loadLanguageDE()"><span class="flag-icon flag-icon-de"></span>Deutsch</div>
+        </div>
+    </div>
+</div>
+<!-- end languages divs-->
     <div class="container" id="socialmediacontainer">
         <div class="row" id="socialMediaRow">
             <div class="col-lg-5 col-sm-3 col-md-4">
@@ -58,11 +69,11 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="index.html#contactUs" id="navbarAtag">Contactează-ne</a></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html#paperRowMiddle" class="navi">Oferte Sacoșe</a></li>
-                    <li><a href="index.html#clientsOpinion" class="navi">Testimoniale</a></li>
-                    <li><a href="index.html#whoWeAreContainer" class="navi">Despre noi</a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
-                    <li><a href="index.html#FAQ" class="navi">Intrebări frecvente</a></li>
-                    <li><a href="index.html#contactUs" class="navi">Contactati-ne</a></li>
+                    <li><a href="index.html#paperRowMiddle" class="navi" ng-bind="text.nav"></a></li>
+                    <li><a href="index.html#clientsOpinion" class="navi" ng-bind="text.nav1"></a></li>
+                    <li><a href="index.html#whoWeAreContainer" class="navi" ng-bind="text.nav2"></a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
+                    <li><a href="index.html#FAQ" class="navi" ng-bind="text.nav3"></a></li>
+                    <li><a href="index.html#contactUs" class="navi" ng-bind="text.nav4"></a></li>
                 </ul>
             </div>
         </div> <!-- end container -->
@@ -263,6 +274,8 @@
 </script>
 <script src="Plugins/jquery/dist/jquery.min.js"></script>
 <script src="Plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="Plugins/angular/angular.min.js"></script>
+<script src="js/controllers.js"></script>
 <script src="js/pretty.js"></script>
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

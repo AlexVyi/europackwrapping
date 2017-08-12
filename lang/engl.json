@@ -1,7 +1,7 @@
 {
-  "btn": "Offers",
-  "btn1":"Testimonials",
-  "btn2":"About us",
-  "btn3":"FAQ",
-  "btn4":"Contact us"
+  "nav": "Offers",
+  "nav1":"Testimonials",
+  "nav2":"About us",
+  "nav3":"FAQ",
+  "nav4":"Contact us"
 }

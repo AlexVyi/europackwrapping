@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="middle.css" type="text/css" media="all">
     <link rel="stylesheet" href="bottom.css" type="text/css" media="all">
     <link rel="stylesheet" href="overlay.css" type="text/css" media="all">
+    <link rel="stylesheet" href="Plugins/flag-icon-css/css/flag-icon.min.css" type="text/css" media="all">
     <link rel="icon"  sizes="16x16" href="favicon/favicon-3.ico">
     <!--google analitics-->
     <script>
@@ -31,11 +32,10 @@
     <div id="overlay-content-box" class="container text-center">
         <img src="img/cuponAugust.png" class="img-responsive thumbnail" id="overlayImg">
     </div>
-      onload="removeOverlay()"
 </div>-->
 
 
-<body data-spy="scroll" data-target="#smart-navbar" ng-controller="langController">
+<body data-spy="scroll" data-target="#smart-navbar" ng-controller="langController" onload="removeOverlay()" data-ng-init="init()">
 <div class="container-fluid" id="background" style="height: 100%">
     <div class="container" id="socialmediacontainer">
         <div class="row" id="socialMediaRow">
@@ -55,11 +55,12 @@
         </div>
     </div><!--end container-->
 
-    <button ng-click="loadLanguage()">Load RO!</button>
-    <button ng-click="loadLanguageEngl()">Load EN!</button>
+    <div ng-click="loadLanguage()"><span class="flag-icon flag-icon-ro"></span>Romana</div>
+    <div ng-click="loadLanguageEngl()"><span class="flag-icon flag-icon-gb"></span>English</div>
+    <div ng-click="loadLanguageDE()"><span class="flag-icon flag-icon-de"></span>Deutsch</div>
 
-    <nav class="navbar navbar-default" id="smart-navbar" style="background-color: transparent;border: none">
-        <div class="container">
+    <nav class="navbar navbar-default" id="smart-navbar" style="background-color: transparent;border: none" >
+        <div class="container" onload="loadLanguage()">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -72,11 +73,11 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <button id="navbarBtnAtag" class="navbar-btn navbar-right"><a href="#contactUs" id="navbarAtag">Contactează-ne</a></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="#paperRowMiddle" class="navi" ng-bind="nav"></a></li>
-                    <li><a href="#clientsOpinion" class="navi" ng-bind="nav1"></a></li>
-                    <li><a href="#whoWeAreContainer" class="navi" ng-bind="nav2"></a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
-                    <li><a href="#FAQ" class="navi" ng-bind="nav3"></a></li>
-                    <li><a href="#contactUs" class="navi" ng-bind="nav4"></a></li>
+                    <li><a href="#paperRowMiddle" class="navi" ng-bind="text.nav"></a></li>
+                    <li><a href="#clientsOpinion" class="navi" ng-bind="text.nav1"></a></li>
+                    <li><a href="#whoWeAreContainer" class="navi" ng-bind="text.nav2"></a></li><!-- h ref urile pot sa duca si la o alta pagina nu neaparat la contentul actualei-->
+                    <li><a href="#FAQ" class="navi" ng-bind="text.nav3"></a></li>
+                    <li><a href="#contactUs" class="navi" ng-bind="text.nav4"></a></li>
                 </ul>
             </div>
         </div> <!-- end container -->
